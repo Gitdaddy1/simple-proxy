@@ -9,7 +9,6 @@ permissions:
 
 jobs:
   build-lucidair:
-    if: ${{ hashFiles('LucidAirBuild/project.yml') != '' }}
     runs-on: macos-15
     defaults:
       run:
